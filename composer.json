@@ -1,0 +1,31 @@
+{
+    "name": "pickling/pickling-bundle",
+    "description": "Bundle to create docs from gherkin files",
+
+    "type": "symfony-bundle",
+    "license": "MIT",
+
+    "keywords": [
+        "behat",
+        "html",
+        "docs",
+        "bundle"
+    ],
+
+    "authors": [
+        {
+            "name": "Felipe Martins",
+            "email": "me@fefas.net"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Pickling\\": "src/"
+        }
+    },
+
+    "require": {
+        "pickling/pickling": "dev-master"
+    }
+}
